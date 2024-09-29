@@ -1,0 +1,32 @@
+.stories-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;       
+  justify-content: center;
+  width: 100%;               
+  max-width: 1600px;
+  margin: 0 auto;            
+  padding: 10px;
+  overflow: hidden;  
+  max-width: 100vw;        /* Hides the scroll bar */
+}
+
+.story-card {
+  width: 100%;               /* Take full width inside container */
+  max-width: 1400px;         /* Control max card width */
+  margin: 15px 0;            /* Spacing between cards */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow */
+}
+
+html, body {
+  overflow-x: hidden; /* Hides horizontal scroll */
+  margin: 0;         /* Removes default margin */
+  padding: 0;        /* Removes default padding */
+}
+

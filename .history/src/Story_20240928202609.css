@@ -1,0 +1,19 @@
+.remove-button-container {
+  position: absolute;            /* Absolute positioning */
+  top: 10px;                    /* Adjust top position */
+  right: 10px;                  /* Adjust right position */
+}
+
+.remove-button {
+  padding: 5px 8px;            /* Smaller padding */
+  background-color: #ff4b4b;   /* Red background */
+  color: white;
+  border: none;
+  border-radius: 5px;          /* Rounded corners */
+  cursor: pointer;
+  font-size: 14px;              /* Smaller font size */
+}
+
+.remove-button:hover {
+  background-color: #e04a4a;    /* Darker red on hover */
+}

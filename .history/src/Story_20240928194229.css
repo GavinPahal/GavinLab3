@@ -1,0 +1,61 @@
+.story-card {
+  width: 90%;            /* Set width for long cards */
+  max-width: 700px;      /* Optional: set a max width for larger screens */
+  height: 100px;        /* Make cards longer */
+  margin: 10px auto;    /* Center the card with spacing */
+  padding: 10px;        /* Space around the card content */
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: flex;        /* Use flex for alignment */
+  align-items: center;  /* Vertical centering */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.image-container {
+  flex: 0 0 80px;      /* Fixed size for the image */
+  margin-right: 15px;  /* Space between image and text */
+}
+
+.story-image {
+  width: 80px;         /* Square image size */
+  height: 80px;        /* Square image size */
+  border-radius: 4px;  /* Slightly rounded corners */
+  object-fit: cover;    /* Ensure the image covers the area */
+}
+
+.story-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Even spacing between elements */
+}
+
+.story-title {
+  font-size: 16px;     /* Title font size */
+  font-weight: bold;
+  margin-bottom: 5px;  /* Space between title and other text */
+}
+
+.story-description {
+  font-size: 12px;     /* Description font size */
+  margin: 5px 0;       /* Spacing for easier reading */
+}
+
+.story-author {
+  font-size: 11px;     /* Author font size */
+  color: #666;
+}
+
+.remove-button {
+  align-self: flex-start; /* Button aligns to the left */
+  padding: 5px 8px;     /* Smaller button padding */
+  background-color: #ff4b4b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #e04a4a;
+}

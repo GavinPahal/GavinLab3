@@ -1,0 +1,59 @@
+.story-card {
+  position: relative;           /* Necessary for absolute positioning */
+  width: 95%;                   /* Increase card width to extend more horizontally */
+  max-width: 80rem;             /* Set a larger max width */
+  margin: 20px auto;            /* Center the card horizontally */
+  padding: 15px;                /* Reduce padding inside the card */
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;           /* Slightly smaller border radius */
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  flex: 0 0 100px;              /* Adjusted size for the image */
+  margin-right: 15px;           /* Space between image and text */
+}
+
+.story-image {
+  width: 100px;                 /* Square image */
+  height: 100px;
+  border-radius: 6px;           /* Slightly rounded corners */
+  object-fit: cover;            /* Cover the area evenly */
+}
+
+.story-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.story-title {
+  font-size: 18px;              /* Adjusted title size */
+  margin-bottom: 8px;
+}
+
+.story-description {
+  font-size: 14px;              /* Slightly larger font for description */
+  margin: 8px 0;
+}
+
+.story-author {
+  font-size: 12px;              /* Slightly larger font for the author */
+  color: #666;
+}
+
+.remove-button {
+  position: absolute;           /* Position absolutely inside the card */
+  top: 10px;                    /* Space from the top */
+  right: 10px;                  /* Space from the right */
+  padding: 2px 6px;             /* Small button size */
+  font-size: 14px;
+  background-color: #ff4b4b;    /* Red background */
+  color: white;                 /* White text color */
+  border: none;
+  border-radius: 4px;           /* Rounded corners */
+  cursor: pointer;
+}

@@ -1,0 +1,24 @@
+.story-container {
+  display: flex;            /* Align children in a row */
+  flex-wrap: nowrap;        /* Prevent wrapping to new lines */
+  overflow-x: auto;         /* Enable horizontal scrolling */
+  padding: 20px;
+}
+
+.story-card {
+  display: flex;
+  flex-direction: column;   /* Ensure card content stacks vertically */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: 300px;
+  min-width: 300px;         /* Keep card widths consistent */
+  transition: transform 0.2s ease-in-out;
+}
+
+.story-card:hover {
+  transform: scale(1.02);
+}
+
+/* Existing styles for image, co

@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.stories-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+}
+
+.story-card {
+  width: 100%;
+  max-width: 1000px; /* Make the card longer */
+  height: 150px;     /* Set the card to be skinnier */
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;     /* Flexbox to manage image and content side-by-side */
+}
+
+.image-container {
+  width: 35%;        /* Use a percentage to control image width */
+}
+
+.story-image {
+  width: 100%;
+  height: 100%;      /* Cover the full height of the card */
+  object-fit: cover; /* Maintain image proportions */
+}
+
+.story-content {
+  width: 65%;        /* Remaining width for text */
+  padding: 10px;
+  text-align: left;
+}
+
+.story-title a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.remove-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+}

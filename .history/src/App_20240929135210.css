@@ -1,0 +1,14 @@
+.stories-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Push cards to the right side */
+  padding: 10px;
+  width: 100%;
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.story-card {
+  width: 90%;                 /* Expand card width to fill container */
+  max-width: 1200px;          /* Max width for the card */
+  margin: 10px 0;             /* Center spacing between cards */
+}

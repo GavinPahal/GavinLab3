@@ -1,0 +1,60 @@
+.story-card {
+  width: 100%;           /* Extend card width to take full container width */
+  max-width: 1800px;     /* Max width for the card */
+  margin: 20px auto;     /* Center the card */
+  padding: 20px;         /* Space around the card content */
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.image-container {
+  flex: 0 0 150px;       /* Fixed image container size */
+  margin-right: 20px;    /* Space between image and text */
+}
+
+.story-image {
+  width: 150px;          /* Square image size */
+  height: 150px;
+  border-radius: 8px;    /* Slightly rounded corners */
+  object-fit: cover;     /* Fit image within bounds */
+}
+
+.story-content {
+  flex: 1;               /* Expand to fill the remaining width */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+
+.story-title {
+  font-size: 18px;       /* Reduce font size slightly */
+  margin-bottom: 10px;   /* Space between title and other text */
+}
+
+.story-description {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.story-author {
+  font-size: 12px;
+  color: #666;
+}
+
+.remove-button {
+  align-self: flex-start;
+  padding: 5px 10px;
+  background-color: #ff4b4b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #e04a4a;
+}

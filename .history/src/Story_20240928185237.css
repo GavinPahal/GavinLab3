@@ -1,0 +1,53 @@
+/* Container for the horizontal alignment */
+.story-container {
+  display: flex;            /* Use flexbox to align items */
+  flex-wrap: nowrap;        /* Prevent wrapping of cards */
+  overflow-x: auto;         /* Enable horizontal scrolling if needed */
+  padding: 20px;
+}
+
+/* Styling for individual cards */
+.story-card {
+  display: flex;
+  flex-direction: column;   /* Stack content vertically */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: 300px;
+  min-width: 300px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.story-card:hover {
+  transform: scale(1.02);
+}
+
+/* Additional styling */
+.story-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.story-content {
+  padding: 10px;
+}
+
+.story-title a {
+  text-decoration: none;
+  color: #333;
+}
+
+.remove-button {
+  background-color: #ff6b6b;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.remove-button:hover {
+  background-color: #ff4c4c;
+}

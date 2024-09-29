@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.stories-container {
+  display: flex;
+  flex-direction: column; /* Keep cards in a vertical column */
+  gap: 15px;              /* Space between the cards */
+  align-items: center;    /* Center-align the cards */
+}

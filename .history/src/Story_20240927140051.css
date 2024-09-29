@@ -1,0 +1,8 @@
+/* Story.css */
+
+.story-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  

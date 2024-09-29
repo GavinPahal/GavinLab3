@@ -1,0 +1,7 @@
+
+
+
+.story-card {
+  width: 100%;                /* Ensure cards take full width */
+  max-width: 1200px;         /* Set a max width for cards */
+}

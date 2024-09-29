@@ -1,0 +1,12 @@
+/* Styles for the Story Container */
+.story-container {
+  display: flex;
+  overflow-x: auto; /* Enables horizontal scrolling */
+  gap: 16px; /* Adds space between cards */
+  padding: 20px;
+  flex-wrap: nowrap; /* Prevents wrapping to new lines */
+}
+
+/* Styles for Individual Story Cards */
+.story-card {
+  flex: 0 0 300px; /* Sets a

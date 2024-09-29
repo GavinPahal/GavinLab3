@@ -1,0 +1,26 @@
+/* src/App.css */
+.App {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  .story-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  

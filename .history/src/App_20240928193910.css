@@ -1,0 +1,6 @@
+.stories-container {
+  display: flex;
+  flex-direction: column; /* Stack cards vertically */
+  align-items: center;    /* Center cards */
+  gap: 20px;              /* Spacing between each card */
+}

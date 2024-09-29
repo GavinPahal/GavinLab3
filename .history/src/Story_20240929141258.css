@@ -1,0 +1,81 @@
+.story-card {
+  width: 95%;                /* Increase card width to make it longer */
+  max-width: 1600px;         /* Set a larger max width */
+  margin: 15px 0;            /* Space between cards */
+  padding: 20px;             /* Adjust padding inside the card */
+  border: 1px solid #ddd;    /* Card border */
+  border-radius: 8px;        /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow */
+  background: #ffffff;
+  position: relative;        /* For absolute positioning of the remove button */
+}
+
+.image-container {
+  flex: 0 0 120px;           /* Set the container width to match image size */
+  margin-right: 20px;        /* Space between image and text */
+}
+
+
+.story-image {
+  width: 120px;              /* Set width to 120px */
+  height: 120px;             /* Match height to width for a square shape */
+  border-radius: 8px;        /* Optional: rounded corners */
+  object-fit: cover;         /* Ensure image scales properly */
+}
+
+.story-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.story-title {
+  font-size: 18px;              /* Adjusted title size */
+  margin-bottom: 8px;
+}
+
+.story-description {
+  font-size: 14px;              /* Slightly larger font for description */
+  margin: 8px 0;
+}
+
+.story-author {
+  font-size: 12px;              /* Slightly larger font for the author */
+  color: #666;
+}
+
+.remove-button {
+  position: absolute;           /* Position absolutely inside the card */
+  top: 10px;                    /* Space from the top */
+  right: 10px;                  /* Space from the right */
+  padding: 2px 6px;             /* Small button size */
+  font-size: 14px;
+  background-color: #ff4b4b;    /* Red background */
+  color: white;                 /* White text color */
+  border: none;
+  border-radius: 4px;           /* Rounded corners */
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Times New Roman', serif;
+}
+
+a {
+  text-decoration: none; /* Removes the underline */
+
+}
+
+.story-author {
+  font-size: 12px;              /* Slightly larger font for the author */
+  color: black;                 /* Set the color to black */
+}
+
+
+.story-card .story-author {
+  color: black;
+}
+
+.story-title, .story-description, .story-author {
+  font-family: 'Times New Roman', serif;
+}

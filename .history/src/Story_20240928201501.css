@@ -1,0 +1,32 @@
+.story-card {
+  width: 95%;            /* Expand card width to almost the entire container */
+  max-width: 2000px;     /* Increase max-width to accommodate longer cards */
+  height: auto;          /* Let height adapt to content */
+  margin: 20px auto;     /* Center the card */
+  padding: 20px;         /* Space around the card content */
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.image-container {
+  flex: 0 0 120px;       /* Fixed image container size */
+  margin-right: 20px;    /* Space between image and text */
+}
+
+.story-image {
+  width: 120px;          /* Square image */
+  height: 120px;
+  border-radius: 8px;    /* Rounded corners */
+  object-fit: cover;     /* Fit image within bounds */
+}
+
+.story-content {
+  flex: 1;               /* Expand to fill remaining width */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}

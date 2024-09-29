@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+/* Vertical card layout */
+.stories-container {
+  display: flex;
+  flex-direction: column;   /* Stack items vertically */
+  align-items: center;      /* Center align the cards */
+  padding: 20px;
+  gap: 16px;                /* Spacing between each card */
+}
+
+.story-card {
+  width: 70%;               /* Set card

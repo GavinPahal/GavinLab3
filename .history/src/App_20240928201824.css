@@ -1,0 +1,8 @@
+.stories-container {
+  display: flex;
+  flex-direction: column;   /* Stack cards vertically */
+  align-items: flex-start;  /* Align cards to the left */
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1800px;
+}

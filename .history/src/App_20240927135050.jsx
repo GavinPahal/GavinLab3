@@ -1,30 +1,29 @@
+// src/App.jsx
 import React, { useState, useEffect } from 'react';
 import Story from './Story.jsx';
-import sampleStories from './sample_news_stories.json'; // Ensure this path is correct
+import sampleStories from './sample_news_stories.json';
 import './App.css';
 
 function App() {
   const [stories, setStories] = useState([]);
 
   useEffect(() => {
-    // Access the results array
-    if (sampleStories.results) {
-      setStories(sampleStories.results);
-    } else {
-      console.error("No results found in the JSON data.");
-    }
+    // Log the stories to ensure data is loaded correctly
+    console.log("Loaded stories:", sampleStories);
+    setStories(sampleStories);
   }, []);
 
-  const removeStory = (link) => {
-    setStories(stories.filter((story) => story.link !== link));
+  // Function to remove a story by ID
+  const removeStory = (id) => {
+    setStories(stories.filter((story) => story.id !== id));
   };
 
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Random News Feed</h1>
+        <h1 className="title">Random News Feed</h1>
       </header>
-      <div className="stories-container">
+      <div className="story-list">
         {stories.length > 0 ? (
           stories.map((story) => (
             <Story key={story.link} story={story} onRemove={removeStory} />

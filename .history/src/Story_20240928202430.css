@@ -1,0 +1,25 @@
+.story-card {
+  position: relative;           /* Necessary for absolute positioning */
+  width: 95%;                  /* Increased card width */
+  max-width: 1200px;          /* Keep a max width */
+  margin: 10px 0;             /* Vertical spacing between cards */
+  padding: 15px;              /* Padding inside the card */
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;         /* Slightly smaller border radius */
+  display: flex;
+  align-items: flex-start;     /* Align items to the start */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  flex: 0 0 80px;             /* Fixed size for the image */
+  margin-right: 15px;         /* Space between image and text */
+}
+
+.story-image {
+  width: 80px;                /* Square image */
+  height: 80px;
+  border-radius: 8px;         /* Rounded corners */
+  object-fit: cover;          /* Contain image within bounds */
+}

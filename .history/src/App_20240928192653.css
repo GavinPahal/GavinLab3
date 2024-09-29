@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+/* Horizontal card layout */
+.stories-container {
+  display: flex;           /* Flexbox for horizontal alignment */
+  overflow-x: auto;        /* Enable horizontal scrolling */
+  padding: 20px;
+  gap: 16px;               /* Spacing between cards */
+}
+
+.story-card {
+  flex: 0 0 350px;         /* Fixed width for each card */
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.image-container {
+  width: 100%;
+}
+
+.story-image {
+  width: 100%;
+  height: auto;
+}
+
+.story-content {
+  padding: 15px;
+}
+
+.story-title a {
+  text-decoration: none;
+  color: #333;
+}
+
+.story-description {
+  margin: 8px 0;
+}
+
+.story-author {
+  font-style: italic;
+}
+
+.remove-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+.remove-button:hover {
+  background-color: #c0392b;
+}

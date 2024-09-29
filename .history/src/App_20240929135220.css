@@ -1,0 +1,16 @@
+.stories-container {
+  display: flex;
+  flex-direction: column;         /* Keeps cards in a column */
+  align-items: flex-start;       /* Aligns items to the left */
+  padding: 10px;
+  margin: 0;
+  width: 100%;                   /* Full width of the parent */
+  max-width: 3000px;            /* Increase to super long */
+  margin: 0 auto;                /* Centers the container */
+}
+
+
+.story-card {
+  width: 100%;                /* Ensure cards take full width */
+  max-width: 1200px;         /* Set a max width for cards */
+}

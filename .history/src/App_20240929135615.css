@@ -1,0 +1,23 @@
+.stories-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;       /* Center cards horizontally */
+  justify-content: center;   /* Center container in the middle */
+  width: 100%;               /* Full width */
+  max-width: 1600px;         /* Control maximum width of the container */
+  margin: 0 auto;            /* Center the container horizontally */
+  padding: 10px;
+}
+
+.story-card {
+  width: 100%;               /* Take full width inside container */
+  max-width: 1400px;         /* Control max card width */
+  margin: 15px 0;            /* Spacing between cards */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow */
+}

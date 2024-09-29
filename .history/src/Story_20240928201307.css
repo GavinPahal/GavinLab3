@@ -1,0 +1,63 @@
+.story-card {
+  width: 100%;            /* Extend card to fill the entire width */
+  max-width: 1800px;      /* Increase max width */
+  height: auto;           /* Adapt height to content */
+  margin: 20px auto;      /* Center with spacing */
+  padding: 20px;          /* Inner spacing */
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;    /* Rounded corners */
+  display: flex;          /* Flex layout */
+  align-items: center;    /* Vertical centering */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.image-container {
+  flex: 0 0 120px;        /* Fixed image container size */
+  margin-right: 30px;     /* Increase spacing */
+}
+
+.story-image {
+  width: 120px;           /* Square image */
+  height: 120px;
+  border-radius: 8px;     /* Rounded image corners */
+  object-fit: cover;      /* Contain image */
+}
+
+.story-content {
+  flex: 1;                /* Expand content to full width */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.story-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;    /* Spacing */
+}
+
+.story-description {
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+.story-author {
+  font-size: 12px;
+  color: #666;
+}
+
+.remove-button {
+  align-self: flex-start;
+  padding: 7px 15px;
+  background-color: #ff4b4b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.remove-button:hover {
+  background-color: #e04a4a;
+}

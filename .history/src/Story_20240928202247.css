@@ -1,0 +1,82 @@
+.story-card {
+  width: 70%;                /* Decrease card width */
+  max-width: 1200px;         /* Set a smaller max width */
+  margin: 10px 5px;          /* Less space around the cards */
+  padding: 15px;             /* Reduce padding inside the card */
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;        /* Slightly smaller border radius */
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  flex: 0 0 80px;            /* Smaller fixed size for the image */
+  margin-right: 12px;        /* Less space between image and text */
+}
+
+.story-image {
+  width: 80px;               /* Smaller square image */
+  height: 80px;
+  border-radius: 6px;        /* Slightly rounded corners */
+  object-fit: cover;
+}
+
+.story-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.story-title {
+  font-size: 16px;           /* Decrease title size */
+  margin-bottom: 8px;
+}
+
+.story-description {
+  font-size: 12px;           /* Smaller font for description */
+  margin: 8px 0;
+}
+
+.story-author {
+  font-size: 10px;
+  color: #666;
+}
+
+.remove-button {
+  padding: 4px 8px;          /* Smaller button */
+  font-size: 12px;
+  background-color: #ff4b4b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #e04a4a;
+}
+
+.remove-button {
+  position: absolute;            /* Position it absolutely */
+  top: 10px;                    /* Positioning from the top */
+  right: 10px;                  /* Positioning from the right */
+  font-size: 16px;              /* Size of the "X" */
+  color: #ff4b4b;               /* Color for visibility */
+  cursor: pointer;              /* Pointer on hover */
+}
+
+.story-card {
+  position: relative;           /* Necessary for absolute positioning */
+  width: 70%;                  /* Decreased card width */
+  max-width: 1200px;          /* Set a smaller max width */
+  margin: 10px 5px;           /* Less space around the cards */
+  padding: 15px;              /* Reduce padding inside the card */
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;         /* Slightly smaller border radius */
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
